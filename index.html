@@ -4,8 +4,8 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
-		<link rel="stylesheet" href="css/pico.css">
-		<link rel="stylesheet" href="css/custom.css">
+		<link rel="stylesheet" href="./css/pico.css">
+		<link rel="stylesheet" href="./css/custom.css">
 		<title>PicoChat</title>
 	</head>
 	<body id="body">
@@ -38,10 +38,10 @@
 
 				</article>
 		</main>
-		<main class="container">
-			<form method="post" action="#">
-				<input type="text" placeholder="Enter the message" style="width:80%;">
-				<button type="reset" style="display:inline;min-width:fit-content; width: calc(20% - 6px)"><i class='fas fa-paper-plane'></i></button>
+		<main class="container msg-container">
+			<form method="post" id="msg-form">
+				<input type="text" placeholder="Enter the message" id="msg" style="width:80%;">
+				<button type="submit" style="display:inline;min-width:fit-content; width: calc(20% - 6px)"><i class='fas fa-paper-plane'></i></button>
 			</form>
 		</main>
 
@@ -59,13 +59,15 @@
 		</dialog>
 		<script>
 			function getName() {
-				name=document.getElementById('name').value;
-				console.log(name)
+				user_name=document.getElementById('name').value;
+				console.log(user_name)
 				document.getElementById('dia').setAttribute('open',false)
-				document.getElementById('name-display').innerHTML= "Hello " + name
+				document.getElementById('name-display').innerHTML= "Hello " + user_name
 			}
 
 		</script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+		<script src="./sendmsg.js"></script>
 	</body>
 
 </html>
