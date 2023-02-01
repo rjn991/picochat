@@ -33,3 +33,6 @@ dialog article {
 dialog footer {
     margin-top: 10px;
 }
+.msg-container {
+    padding-bottom: 0px;
+}
