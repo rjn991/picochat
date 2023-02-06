@@ -1,5 +1,5 @@
-
 var msgBox= document.getElementById("message-box")
+
 function getAllData() {
     messagesDB.on("child_added", function(data, prevChildKey) {
         var row = data.val();
@@ -7,4 +7,5 @@ function getAllData() {
         msgBox.scrollTop = msgBox.scrollHeight;
      });
 }
+
 getAllData()

@@ -3,12 +3,20 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<!-- To include Font Awesome Icons, from MDBootstrap -->
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
+		
+		<!-- To include PicoCSS Framework -->
 		<link rel="stylesheet" href="./css/pico.css">
+		
+		<!-- To include custom css -->
 		<link rel="stylesheet" href="./css/custom.css">
 		<title>PicoChat</title>
 	</head>
+	
 	<body id="body">
+		<!-- Nav Bar -->
 		<nav class="container-fluid">
 			<ul>
 				<li><h3>PicoChat</h3></li>
@@ -23,29 +31,26 @@
 				  </li>
 			</ul>
 		</nav>
+		
+		<!-- To display "Hello" followed by username -->
 		<p class="container-fluid" id="name-display">Hello</p>
+		
+		<!-- Message box -->
 		<main class="container">
 				<article class="secondary" id="message-box">
-					
-					<!-- <p>hello</p> -->
-					<!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident reiciendis laborum voluptatibus nisi veniam, quam aliquam sunt commodi eos modi soluta quibusdam vel, veritatis officia consequuntur excepturi minima cum magnam fugiat dicta? Nesciunt sed ex, est molestias delectus exercitationem perspiciatis ad suscipit eius. Ipsa obcaecati incidunt nulla quia totam rem reprehenderit mollitia magnam quaerat consectetur, consequatur non earum repellat eum numquam ipsum! Hic placeat provident maiores, saepe sequi quia distinctio iusto dolore eaque minima, accusamus quod, quidem natus! Ducimus facilis in ut error temporibus, non perspiciatis, quisquam dicta, voluptas libero corporis quis maxime ullam nostrum iusto magni deserunt velit quibusdam.</p>
-					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident reiciendis laborum voluptatibus nisi veniam, quam aliquam sunt commodi eos modi soluta quibusdam vel, veritatis officia consequuntur excepturi minima cum magnam fugiat dicta? Nesciunt sed ex, est molestias delectus exercitationem perspiciatis ad suscipit eius. Ipsa obcaecati incidunt nulla quia totam rem reprehenderit mollitia magnam quaerat consectetur, consequatur non earum repellat eum numquam ipsum! Hic placeat provident maiores, saepe sequi quia distinctio iusto dolore eaque minima, accusamus quod, quidem natus! Ducimus facilis in ut error temporibus, non perspiciatis, quisquam dicta, voluptas libero corporis quis maxime ullam nostrum iusto magni deserunt velit quibusdam.</p>
-					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident reiciendis laborum voluptatibus nisi veniam, quam aliquam sunt commodi eos modi soluta quibusdam vel, veritatis officia consequuntur excepturi minima cum magnam fugiat dicta? Nesciunt sed ex, est molestias delectus exercitationem perspiciatis ad suscipit eius. Ipsa obcaecati incidunt nulla quia totam rem reprehenderit mollitia magnam quaerat consectetur, consequatur non earum repellat eum numquam ipsum! Hic placeat provident maiores, saepe sequi quia distinctio iusto dolore eaque minima, accusamus quod, quidem natus! Ducimus facilis in ut error temporibus, non perspiciatis, quisquam dicta, voluptas libero corporis quis maxime ullam nostrum iusto magni deserunt velit quibusdam.</p>
-					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident reiciendis laborum voluptatibus nisi veniam, quam aliquam sunt commodi eos modi soluta quibusdam vel, veritatis officia consequuntur excepturi minima cum magnam fugiat dicta? Nesciunt sed ex, est molestias delectus exercitationem perspiciatis ad suscipit eius. Ipsa obcaecati incidunt nulla quia totam rem reprehenderit mollitia magnam quaerat consectetur, consequatur non earum repellat eum numquam ipsum! Hic placeat provident maiores, saepe sequi quia distinctio iusto dolore eaque minima, accusamus quod, quidem natus! Ducimus facilis in ut error temporibus, non perspiciatis, quisquam dicta, voluptas libero corporis quis maxime ullam nostrum iusto magni deserunt velit quibusdam.</p>
-					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident reiciendis laborum voluptatibus nisi veniam, quam aliquam sunt commodi eos modi soluta quibusdam vel, veritatis officia consequuntur excepturi minima cum magnam fugiat dicta? Nesciunt sed ex, est molestias delectus exercitationem perspiciatis ad suscipit eius. Ipsa obcaecati incidunt nulla quia totam rem reprehenderit mollitia magnam quaerat consectetur, consequatur non earum repellat eum numquam ipsum! Hic placeat provident maiores, saepe sequi quia distinctio iusto dolore eaque minima, accusamus quod, quidem natus! Ducimus facilis in ut error temporibus, non perspiciatis, quisquam dicta, voluptas libero corporis quis maxime ullam nostrum iusto magni deserunt velit quibusdam.</p>
-					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident reiciendis laborum voluptatibus nisi veniam, quam aliquam sunt commodi eos modi soluta quibusdam vel, veritatis officia consequuntur excepturi minima cum magnam fugiat dicta? Nesciunt sed ex, est molestias delectus exercitationem perspiciatis ad suscipit eius. Ipsa obcaecati incidunt nulla quia totam rem reprehenderit mollitia magnam quaerat consectetur, consequatur non earum repellat eum numquam ipsum! Hic placeat provident maiores, saepe sequi quia distinctio iusto dolore eaque minima, accusamus quod, quidem natus! Ducimus facilis in ut error temporibus, non perspiciatis, quisquam dicta, voluptas libero corporis quis maxime ullam nostrum iusto magni deserunt velit quibusdam.</p>
-					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident reiciendis laborum voluptatibus nisi veniam, quam aliquam sunt commodi eos modi soluta quibusdam vel, veritatis officia consequuntur excepturi minima cum magnam fugiat dicta? Nesciunt sed ex, est molestias delectus exercitationem perspiciatis ad suscipit eius. Ipsa obcaecati incidunt nulla quia totam rem reprehenderit mollitia magnam quaerat consectetur, consequatur non earum repellat eum numquam ipsum! Hic placeat provident maiores, saepe sequi quia distinctio iusto dolore eaque minima, accusamus quod, quidem natus! Ducimus facilis in ut error temporibus, non perspiciatis, quisquam dicta, voluptas libero corporis quis maxime ullam nostrum iusto magni deserunt velit quibusdam.</p> -->
-
+					<!-- Messages are displayed here -->
 				</article>
 		</main>
+		
+		<!-- Container to enter new message-->
 		<main class="container msg-container">
-			<form method="post" id="msg-form">
+			<form id="msg-form">
 				<input type="text" placeholder="Enter the message" id="msg" style="width:80%;">
 				<button type="submit" style="display:inline;min-width:fit-content; width: calc(20% - 6px)"><i class='fas fa-paper-plane'></i></button>
 			</form>
 		</main>
 
-
+		<!-- This opens a small dialog box in begining to accept user's name -->
 		<dialog id="dia" open>
 			<form onsubmit="getName();return false;">
 			<article>
@@ -57,18 +62,28 @@
 			</article>
 			</form>
 		</dialog>
+		
+		<!-- This script saves the user's name from the above dialog and displays it-->
 		<script>
 			function getName() {
 				user_name=document.getElementById('name').value;
-				console.log(user_name)
 				document.getElementById('dia').setAttribute('open',false)
 				document.getElementById('name-display').innerHTML= "Hello " + user_name
 			}
-
 		</script>
+		
+		<!-- To include firebase SDK -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+		
+		<!-- To initialize firebase realtime database -->
+		<script src="./initdb.js"></script>
+		
+		<!-- Backend file to send message -->
 		<script src="./sendmsg.js"></script>
+		
+		<!-- Backend file to display message -->
 		<script src="./getmsg.js"></script>
+	
 	</body>
 
 </html>
