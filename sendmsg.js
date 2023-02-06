@@ -21,6 +21,7 @@ function submitForm(e) {
     var message= document.getElementById('msg').value
     console.log(user_name +" >> " + message)
     saveMessages(user_name,message)
+    document.getElementById('msg-form').reset()
 }
 
 
