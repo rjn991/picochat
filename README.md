@@ -20,11 +20,11 @@ Then replace contents of `initdb.js` with your firebase credentials.
 
 ## To-do list
 
-[ ] Add user login with Google authentication.
+- [ ] Add user login with Google authentication.
 
-[ ] Add a floating button to scroll down when new message arrives.
+- [ ] Add a floating button to scroll down when new message arrives.
 
-[ ] Add notification sound.
+- [ ] Add notification sound.
 
 Feel free to submit a pull request.
 
