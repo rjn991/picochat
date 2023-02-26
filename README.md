@@ -13,13 +13,17 @@ Clone the repo using
     $ git clone https://github.com/rjn991/picochat.git
 
 Create a project in [Firebase console](https://console.firebase.google.com/)
+
 Create a realtime database. (Refer below sources for help)
+
 Then replace contents of `initdb.js` with your firebase credentials.
 
 ## To-do list
 
 [ ] Add user login with Google authentication.
+
 [ ] Add a floating button to scroll down when new message arrives.
+
 [ ] Add notification sound.
 
 Feel free to submit a pull request.
